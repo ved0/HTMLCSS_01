@@ -7,7 +7,7 @@ document.querySelector("form").addEventListener("submit", function (ev) {
     const inputText = document.querySelector("input").value;
     if (inputText.length == 0) {
         setTimeout(() => {
-            document.querySelector(".errorMessage").classList.add('active');
+            document.querySelector(".errorMessage").classList.add("active");
         }, 20)
         return;
     }
